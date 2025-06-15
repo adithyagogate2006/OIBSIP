@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+header {
+  background-color: #006699;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+section {
+  padding: 1.5rem;
+  text-align: center;
+}
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+.skills li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+@media (max-width: 768px) {
+  .skills li {
+    display: block;
+    margin: 1rem 0;
+  }
+}

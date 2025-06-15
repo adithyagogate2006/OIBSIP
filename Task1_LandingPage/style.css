@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+header {
+  background: #003366;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem;
+  background: #f4f4f4;
+}
+.feature-box {
+  background: #e0e0e0;
+  padding: 1rem;
+  margin: 1rem;
+  flex: 1 1 200px;
+  text-align: center;
+  border-radius: 8px;
+}
+.about {
+  padding: 2rem;
+  background: #fff;
+  text-align: center;
+}
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+@media (max-width: 768px) {
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+}

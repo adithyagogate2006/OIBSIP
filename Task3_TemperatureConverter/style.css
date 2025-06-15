@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  margin: 0;
+}
+.converter {
+  background: #fff;
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  box-shadow: 0 0 10px #ccc;
+  border-radius: 10px;
+  text-align: center;
+}
+input, select, button {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  width: 100%;
+  font-size: 1rem;
+}
+@media (max-width: 600px) {
+  .converter {
+    margin: 1rem;
+  }
+}
